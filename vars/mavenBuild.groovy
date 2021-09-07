@@ -1,3 +1,3 @@
 def call(String cmd) {
-      sh "mvn ${cmd}" 
+      sh "${cmd}" 
   }
