@@ -1,5 +1,3 @@
 def call(String imageName) {
-    app = docker.build("techmid/${imageName}")
-    echo $app
-       
+    sh "docker build -t techmid/${imageName}"        
   }
